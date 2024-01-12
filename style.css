@@ -10,6 +10,13 @@ html, body{
     width: 100%;
     background-color: #FFFCF1;
 }
+body::-webkit-scrollbar{
+    background-color: #dedede;
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #ff5f38;
+}
 .page1{
     height: 100vh;
     width: 100%;
